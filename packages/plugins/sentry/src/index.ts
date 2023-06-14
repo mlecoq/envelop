@@ -6,7 +6,7 @@ import {
   OnExecuteDoneHookResultOnNextHook,
   type Plugin,
 } from '@envelop/core';
-import * as Sentry from '@sentry/node';
+import * as Sentry from '@sentry/core';
 import type { Span, TraceparentData } from '@sentry/types';
 
 export type SentryPluginOptions = {

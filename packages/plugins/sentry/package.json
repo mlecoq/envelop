@@ -48,7 +48,7 @@
   "typings": "dist/typings/index.d.ts",
   "peerDependencies": {
     "@envelop/core": "^4.0.0",
-    "@sentry/node": "^6 || ^7",
+    "@sentry/core": "^6 || ^7",
     "graphql": "^14.0.0 || ^15.0.0 || ^16.0.0"
   },
   "dependencies": {
@@ -57,6 +57,7 @@
   "devDependencies": {
     "@envelop/core": "^4.0.0",
     "@graphql-tools/schema": "10.0.0",
+    "@sentry/core": "7.55.1",
     "@sentry/node": "7.55.1",
     "@sentry/tracing": "7.55.1",
     "@sentry/types": "7.55.1",
